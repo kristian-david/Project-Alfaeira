@@ -1,0 +1,244 @@
+body {
+
+  background: #F5F5F5;
+
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+	font-family: "open sans";
+}
+
+#title {
+	color: #F5F5F5;
+	font-family: "Open Sans";
+	letter-spacing: -1px;
+	font-weight: bold;
+	font-size: 54px;
+	text-align: left;
+	margin-left: 1%;
+	position: relative;
+	top:0px;
+	display: block;
+}
+
+#subtitle {
+	color: #BDBDBD;
+	font-family: "Open Sans";
+	letter-spacing: -2px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 1%;
+	position: relative;
+	top:-48px;
+	display: block;
+}
+
+.header {
+	background: #235594;
+	width: 100%;
+	height: 90px;
+	position: relative;
+	z-index: 2;
+	top: -36px;
+	display: block;
+}
+
+.login-background {
+
+  	border-radius: 25px 25px 25px 25px;
+  	background: #235594;
+  	border: 5px solid #235594;
+
+  	box-shadow: 0px 8px 12px 2px rgba(16, 16, 16, 0.5);
+
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 80%;
+	height: 520px;
+
+	margin-top: 5%;
+	z-index: 1;
+	position: relative;
+
+}
+
+.login-body {
+
+  	border-radius: 25px 25px 25px 25px;
+  	background: #EEEEEE;
+	position: absolute;
+
+    z-index: 2;
+	width: 100%;
+	height: 96%;
+
+	top: 0;
+  	left: 0;
+  	right: 0;
+ 	bottom: 0;
+
+	position: relative;
+
+}
+
+.login-text {
+
+	position: absolute;
+
+    z-index: 3;
+	width: 90%;
+	height: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	top: 3%;
+  	left: 0;
+  	right: 0;
+ 	bottom: 0;
+
+	position: relative;
+
+}
+
+#email-input {
+	width: 100%;
+	height: 64px;
+	padding: 12px 20px;
+ 	margin: auto;
+  	box-sizing: border-box;
+  	border-radius: 15px 15px 15px 15px;
+  	border: 4px solid #235594;
+	background-color: #FAFAFA;
+	display: block;
+	position: relative;
+
+	top: 4%;
+}
+
+#email-input:focus {
+
+	background-color: white;
+
+}
+
+#email-input::placeholder {
+	color: #757575;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#email-input, input {
+	color: #212121;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#password-input {
+	width: 100%;
+	height: 64px;
+	padding: 12px 20px;
+ 	margin: auto;
+  	box-sizing: border-box;
+  	border-radius: 15px 15px 15px 15px;
+  	border: 4px solid #235594;
+	background-color: #FAFAFA;
+	display: block;
+	position: relative;
+
+	top: 4%;
+}
+
+#password-input:focus {
+
+	background-color: white;
+
+}
+
+#password-input::placeholder {
+	color: #757575;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#password-input, input {
+	color: #212121;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+#login-button {
+	width: 100%;
+	height: 64px;
+ 	margin: auto;
+ 	border: none;
+  	border-radius: 15px 15px 15px 15px;
+	background-color: #235594;
+	display: block;
+	position: relative;
+
+	color: #FAFAFA;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 36px;
+
+	top: 4%;
+}
+
+#forgot-button {
+	width: 100%;
+	height: 54px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+ 	margin: auto;
+ 	border: none;
+  	border-radius: 15px 15px 15px 15px;
+	display: block;
+	position: relative;
+
+	color: #235594;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#create-button {
+	width: 75%;
+	height: 64px;
+ 	margin: auto;
+ 	border: none;
+  	border-radius: 15px 15px 15px 15px;
+	background-color: #66BB6A;
+	display: block;
+	position: relative;
+
+	color: #F5F5F5;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 20px;
+
+	top: 4%;
+}
+
+hr {
+  border-top: 5px solid #BDBDBD;
+  border-radius: 5px;
+}
